@@ -1,0 +1,106 @@
+body{
+	width: auto;
+	height: auto;
+	font-family: sans-serif;
+
+}
+.main{
+	display: grid;
+	grid-template-columns:  50% 50%;
+	position: absolute;
+	height: 100%;
+	width: auto;
+	text-align: center;
+}
+
+.android{
+	background-color: #006266;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2%;
+	
+	
+
+
+}
+.ios{
+	background-color: #e74c3c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+	flex-direction: column;
+	
+}
+
+figcaption{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 30%;
+
+}
+#back{
+	
+}
+button{
+	bottom: 0;
+	right: 0;
+	margin: 1%;
+	position: absolute;
+	background-color: #30336b; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    border-radius: 5%;
+}
+button:hover{
+	background-color: #130f40;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .android{
+    	display: grid;
+    	grid-column:  1/-1;
+        height: 100%;
+	    width: 100%;
+    }
+    .ios{
+    	display: grid;
+    	grid-column:  1/-1;
+        height: 100%;
+	    width: 100%;
+
+    }
+
+    img{
+    	width: 15%;
+    }
+    figcaption{
+    	font-size: 1.4em;
+    	top:0;
+    }
+    button{
+    	visibility: hidden;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,73 @@
+
+body{
+	background-color: #130f40;
+	background-image: url(http://tadalafilforsale.net/data/media/56/58004397.jpg);
+	background-position: center; 
+	height: 100%;
+	width: auto;
+	font-family: sans-serif;
+
+
+
+}
+@media only screen and (max-width: 480px) {
+    footer {
+       font-size: 1em;
+    }
+}
+.main{
+	display: flex;
+	color: white;
+	width: 100%;
+	height:500px ;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+#bigtitle{
+	width: 80%;
+	text-align: center;
+	font-size:3em;
+	margin-bottom:  6%;
+	
+}
+#getstarted{
+    font-size: 20px;
+    color:#f9ca24;
+    border-color: #f9ca24; 
+	width: 260px;
+	border-radius: 5%;
+	padding: 10%;
+	background-color: transparent;
+	margin-bottom: 20%;
+
+}
+#getstarted:hover{
+	background-color: #30336b;
+
+
+}
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #30336b;
+   color: white;
+   text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+	#bigtitle{
+		font-size: 2.8em;
+	}
+	#getstarted{
+		width: 130px;
+	}
+}
+
+
+
+
+
+

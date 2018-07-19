@@ -1,0 +1,75 @@
+
+body{
+	width: auto;
+	height: 100%;
+	font-family: sans-serif;
+
+}
+.main{
+	display: grid;
+	grid-template-columns:  50% 50%;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.guide{
+	background-color: #130f40;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2%;
+	
+
+
+}
+.mylanguage{
+	background-color: #5758BB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+	flex-direction: column;
+}
+#thetitle{
+	color: white;
+	text-align: center;
+	width: 75%;
+	font-size: 2.6em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+a{
+	text-decoration:  none;
+}
+span{
+	color: #f9ca24;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .mylanguage{
+    	display: grid;
+    	grid-column:  1/-1;
+        height: 100%;
+	    width: 100%;
+    }
+    .guide{
+    	display: grid;
+    	grid-column:  1/-1;
+        height: 100%;
+	    width: 100%;
+
+    }
+    #thetitle{
+    	font-size: 2em;
+    }
+}
